@@ -6,7 +6,7 @@ This repository contains code for the submitted paper __Surrogate-based cross-co
 In this work,  the SBCC is proposed to improve the cross-correlation performance via an optimized surrogate filter/image. Our broad SBCC encompasses several existing correlation techniques(PC, SPOF, RPC, etc) as special cases. Besides, the SBCC demonstrates the best robustness  by incorporating other negative context images.
 
 ### Motivation 
-![movie](motivation.png)
+![movie](https://github.com/yongleex/SBCC/blob/cc21b363e036b3a9e40fed7d51d21e99a59a5a1a/for%20figure/motivation.png)
 Inspired by [correlation filters](https://dl.acm.org/doi/book/10.5555/2520035), the surrogate image---supplanting original template images---will produce a more robust and more accurate correlation signal. That says, the surrogate is encouraged to produce a predefined Gaussian shape response to Image 1, and zero response to negative context images. As a result, the response between Image 2 and the surrogate could be accurate and robust.
 Our SBCC framework is significantly different from the existing correlation methods by considering other negative context templates. More detailed info is referred to the paper [, paper link will work once available](https://github.com/yongleex/SBCC).
 
@@ -18,11 +18,11 @@ conda install numpy matplotlib opencv seaborn
 
 
 ## The experiments
-* [Exp1.ipynb](https://github.com/yongleex/SBCC/blob/main/Exp1.ipynb): Visualize the cross-correlation response map for synthetic images;
-* [Exp2.ipynb](https://github.com/yongleex/SBCC/blob/main/Exp2.ipynb): Visualize the cross correlation response map for a real PIV images;
-* [Exp3.ipynb](https://github.com/yongleex/SBCC/blob/main/Exp3.ipynb): RMSE test with noise & w/o noise, uniform flows;
-* [Exp4.ipynb](https://github.com/yongleex/SBCC/blob/main/Exp4.ipynb): Test on the synthetic dataset of non-uniform flows;
-* [Exp5.ipynb](https://github.com/yongleex/SBCC/blob/main/Exp5.ipynb): Test on the real PIV cases;
+* [Exp1.ipynb](https://github.com/yongleex/SBCC/blob/master/Exp1.ipynb): Visualize the cross-correlation response map for synthetic images;
+* [Exp2.ipynb](https://github.com/yongleex/SBCC/blob/master/Exp2.ipynb): Visualize the cross correlation response map for a real PIV images;
+* [Exp3.ipynb](https://github.com/yongleex/SBCC/blob/master/Exp3.ipynb): RMSE test with noise & w/o noise, uniform flows;
+* [Exp4.ipynb](https://github.com/yongleex/SBCC/blob/master/Exp4.ipynb): Test on the synthetic dataset of non-uniform flows;
+* [Exp5.ipynb](https://github.com/yongleex/SBCC/blob/master/Exp5.ipynb): Test on the real PIV cases;
 
 
 ### Questions?
