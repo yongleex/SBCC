@@ -1,6 +1,6 @@
 # Surrogate-based cross-correlation (SBCC) 
 
-[![PoF](https://img.shields.io/static/v1?label=Physics of Fluids&message=36,087157&color=B31B1B)](https://doi.org/10.1063/5.0219706)
+[![PoF](https://img.shields.io/static/v1?label=Physics%20of%20Fluids&message=36,087157&color=B31B1B)](https://doi.org/10.1063/5.0219706)
 [![preprint](https://img.shields.io/static/v1?label=arXiv&message=2112.05303&color=B31B1B)](https://arxiv.org/abs/2112.05303)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
